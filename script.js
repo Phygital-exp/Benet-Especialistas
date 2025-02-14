@@ -65,10 +65,14 @@ function renderResults(results) {
                         </li>
                         <li><strong>Región:</strong> ${result.REGION || 'N/A'}</li>
                         <li><strong>Ciudad:</strong> ${result.CIUDAD || 'N/A'}</li>
+                        <li><strong>Nombre:</strong> ${result.NOMBRE || 'N/A'}</li>
                         <li><strong>Tipo:</strong> ${result.TIPO || 'N/A'}</li>
                         <li><strong>Especialidad:</strong> ${result.ESPECIALIDAD || 'N/A'}</li>
+                        <li><strong>Cargo:</strong> ${result.CARGO || 'N/A'}</li>
+                        <li><strong>Farmacia:</strong> ${result.FARMACIA || 'N/A'}</li>
                         <li><strong>Dirección:</strong> ${result.DIRECCION || 'N/A'}</li>
                         <li><strong>Teléfono:</strong> ${result.TELEFONO || 'N/A'}</li>
+                        <li><strong>Email:</strong> ${result.Email || 'N/A'}</li>
                     </ul>
                 </div>
             `;
