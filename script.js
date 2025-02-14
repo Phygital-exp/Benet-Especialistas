@@ -65,7 +65,6 @@ function renderResults(results) {
                         </li>
                         <li><strong>Región:</strong> ${result.REGION || 'N/A'}</li>
                         <li><strong>Ciudad:</strong> ${result.CIUDAD || 'N/A'}</li>
-                        <li><strong>Nombre:</strong> ${result.NOMBRE || 'N/A'}</li>
                         <li><strong>Tipo:</strong> ${result.TIPO || 'N/A'}</li>
                         <li><strong>Especialidad:</strong> ${result.ESPECIALIDAD || 'N/A'}</li>
                         <li><strong>Cargo:</strong> ${result.CARGO || 'N/A'}</li>
