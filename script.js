@@ -2,16 +2,12 @@ let debounceTimer;
 let fuse = null;
 let fullData = [];
 
-const API_URL = 'https://botai.smartdataautomation.com/api_backend_ai/dinamic-db/report/119/Benet_PDVs';
-const AUTH_HEADERS = {
-    'Authorization': 'Token 4e15396f99ae10dd5c195d81fb6a3722c0a44a10',
-    'Content-Type': 'application/json'
-};
+const API_URL = 'https://https://benet-especialistas-production.up.railway.app/api/benet';
 
 // Cargar los datos de la API
 async function loadData() {
     try {
-        const response = await fetch(API_URL, { headers: AUTH_HEADERS });
+        const response = await fetch(API_URL);
         const data = await response.json();
         fullData = data.result || [];
 
