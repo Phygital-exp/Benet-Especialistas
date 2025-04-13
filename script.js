@@ -2,7 +2,7 @@ let debounceTimer;
 let fuse = null;
 let fullData = [];
 
-const API_URL = 'https://https://benet-especialistas-production.up.railway.app/api/benet';
+const API_URL = 'https://https://benet-especialistas-production.up.railway.app/api/benet/pdv';
 
 // Cargar los datos de la API
 async function loadData() {
